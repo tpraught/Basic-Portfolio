@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Contact Me</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="logo"><a href="index.html"><h1>Tonye Praught</h1></a></div>
+			<ul>
+				<li><a href="contact.html">Contact</a></li>
+				<li class="spacer">|</li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li class="spacer">|</li>
+				<li><a href="index.html">About</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="clearfix"></div>
+
+	<div id="main">	
+		<section class="content">
+			<div class="sectionTitle">
+				<h2>Contact</h2>
+			</div>
+			<form action="mailto:tpraught@charter.net?subject=Portfolio%20Contact%20Form" method="post" enctype="text/plain">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="Name" placeholder="John Smith" onfocus="this.placeholder=''" onblur="this.placeholder='John Smith'">
+
+				<label for="email">Email</label>
+				<input type="email" id="emailAddress" name="Email" placeholder="example@gmail.com" onfocus="this.placeholder=''" onblur="this.placeholder='example@gmail.com'">
+
+				<label for="message">Message</label>
+				<textarea id="Message" name="message" style="height:200px;"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+
+		<section class="sideBar">
+			<div class="sectionTitle">
+				<h3>Connect with Me</h3>
+			</div>
+			<div class="sideBarIcons">
+				<a href="https://github.com/tpraught" target="_blank" title="GitHub Profile - Tonye Praught" alt="GitHub Profile - Tonye Praught"><img class="icon" src="assets/images/icn_github.png" width="50" /></a>
+				<a href="https://www.linkedin.com/in/tonyepraught/" target="_blank" title="LinkedIn Profile - Tonye Praught" alt="LinkedIn Profile - Tonye Praught"><img class="icon" src="assets/images/icn_linkedin.png" width="50" /></a>
+				<a href="https://stackoverflow.com/users/8759949/tonye" target="_blank" title="Stack Overflow Profile - Tonye Praught" alt="Stack Overflow Profile - Tonye Praught"><img class="icon" src="assets/images/icn_stackOverflow.png" width="50" /></a>
+				<span class="stretch"></span>
+			</div>
+		</section>
+	</div>
+
+	<div class="clearfix"></div>
+
+	<footer>
+		<h6>Copyright &#169; 2017 - Tonye Praught</h6>
+	</footer>
+</body>
+</html>
